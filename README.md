@@ -1,4 +1,4 @@
-# Teste prático – Programação Python para Projeto DRS:DEMO
+# Teste prático – Para processo seletivo bolsista desenvolvedor Python CCM-ITA
 
 ## Descrição do desafio
 Esse teste prático tem como objetivo verificar skills de programação em Python considerando
@@ -50,4 +50,5 @@ pip install -r requirements.txt
 flake8 src/crawler.py   
 ```
 
-## Dificuldades:
+## Dificuldades
+De início, uma das dificuldades que eu tive foi entender o problema proposto. Busquei soluções recorrendo ao meu professor de cálculo no Instituto Federal (IFNMG). Após superar essa etapa, enfrentei o desafio de estudar as bibliotecas utilizadas (numpy e matplotlib), nas quais estou aprofundando meus conhecimentos.
