@@ -59,7 +59,7 @@ flake8 src/crawler.py
 ## Execute o programa
 7. Comando para executar o programa pelo terminal
 ```bash
-python3 src/main.py
+Ctrl + f5
 ```
 ## Observações:
 8. Este programa foi desenvolvido utilizando o Ubuntu 22.04.3 LTS e como IDE Visual Studio Code (VS Code)
