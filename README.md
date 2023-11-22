@@ -17,6 +17,12 @@ y = 10 * cos (x), no intervalo de 0 ≤ x ≤ pi;
 Encontro da curva entre comprimento instantâneo da zona jateada
 ljateado em função do ângulo θ, com θ variando entre 0 e 360°.
 
+1. Não é necessário estabelecer a relação matemática (regressão, por exemplo) entre
+ljateado e θ. Apenas o gráfico é considerado como resultado.
+2. Deverá ser possível a alteração da coordenada do ponto b (xb, yb) pelo usuário. Ao
+alterar, o resultado anterior deverá ainda estar visível no gráfico, estando claro para o
+usuário qual é a simulação antiga e qual é a simulação atual.
+
 ## Preparação do ambiente de desenvolvimento
 Para executar o projeto é necessário ter o Python 3.7 instalado e seguir os passos:
 
