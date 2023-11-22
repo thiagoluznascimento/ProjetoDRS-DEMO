@@ -26,10 +26,6 @@ usuário qual é a simulação antiga e qual é a simulação atual.
 ## Preparação do ambiente de desenvolvimento
 Para executar o projeto é necessário ter o Python 3.7 instalado e seguir os passos:
 
-0. Instale as bibliotecas  numpy e matplotlib :
-```bash
-pip install numpy matplotlib
-```
 
 1. Clonar o repositório:
 ``` bash
@@ -42,19 +38,31 @@ virtualenv venv -p python3.7
 ```
 3. Comando para ativar o ambiente virtual
 ```bash
-source venv/bin/activate  
+source venv/bin/activate
+```
+4. Instale as bibliotecas  numpy e matplotlib :
+```bash
+pip install numpy matplotlib
 ```
 
-4. Instale os requirements.txt
+5. Instale os requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Execute o Flake8
-7. Comando para executar o flake8.
+6. Comando para executar o flake8.
 ```bash
-flake8 src/crawler.py   
+flake8 src/crawler.py
 ```
+
+## Execute o programa
+7. Comando para executar o programa pelo terminal
+```bash
+python3 src/main.py
+```
+## Observações:
+8. Este programa foi desenvolvido utilizando o Ubuntu 22.04.3 LTS e como IDE Visual Studio Code (VS Code)
 
 ## Dificuldades
 De início, uma das dificuldades que eu tive foi entender o problema proposto. Busquei soluções recorrendo ao meu professor de cálculo no Instituto Federal (IFNMG). Após superar essa etapa, enfrentei o desafio de estudar as bibliotecas utilizadas (numpy e matplotlib), nas quais estou aprofundando meus conhecimentos.
