@@ -62,7 +62,7 @@ flake8 src/main.py
 Ctrl + f5
 ```
 ## Observações:
-8. Este script foi desenvolvido utilizando o Ubuntu 22.04.3 LTS e como IDE Visual Studio Code (VS Code)
+8. Este script foi desenvolvido utilizando o Ubuntu 22.04.3 LTS e como IDE, Visual Studio Code (VS Code)
 
 ## Dificuldades
 De início, uma das dificuldades que eu tive foi entender o problema proposto. Busquei soluções recorrendo ao meu professor de cálculo no Instituto Federal (IFNMG). Após superar essa etapa, enfrentei o desafio de estudar as bibliotecas utilizadas (numpy e matplotlib), nas quais ainda estou aprofundando meus conhecimentos.
