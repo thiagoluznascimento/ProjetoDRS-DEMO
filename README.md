@@ -1,4 +1,5 @@
-# Teste prático – Para processo seletivo bolsista desenvolvedor Python CCM-ITA
+# Teste Prático para Bolsista Desenvolvedor Python em Projeto de Cooperação Acadêmico-
+# Industrial para Eigendauer e CCM-ITA
 
 ## Descrição do desafio
 Esse teste prático tem como objetivo verificar skills de programação em Python considerando
