@@ -32,8 +32,7 @@ class JateamentoDeGranalhas:
 
         self.ax.plot(x, y, label='Curva')
         self.ax.plot(x, jateado, label='Zona Jateada', linestyle='--')
-        self.ax.plot(round(self.xb, 2), round(
-            self.yb, 2), 'ro', label='Ponto b')
+        self.ax.plot(round(self.xb, 2), round(self.yb, 2), 'ro', label='Ponto b')
 
         self.ax.legend()
         plt.draw()
@@ -51,8 +50,7 @@ class JateamentoDeGranalhas:
         self.slider_y.on_changed(self._slider_y_changed)
 
         ax_slider_theta = plt.axes([0.1, 0.11, 0.65, 0.03], facecolor=axcolor)
-        self.slider_theta = Slider(
-            ax_slider_theta, 'Angulo Theta', 0, 360, valinit=0)
+        self.slider_theta = Slider(ax_slider_theta, 'Angulo Theta', 0, 360, valinit=0)
         self.slider_theta.on_changed(self.update)
 
     def _adiciona_reset_button(self):
