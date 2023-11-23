@@ -27,7 +27,7 @@ usuário qual é a simulação antiga e qual é a simulação atual.
 Para executar o projeto é necessário ter o Python 3.7 instalado e seguir os passos:
 
 
-1. Clonar o repositório:
+1. Clonar o repositório
 ``` bash
 git clone https://github.com/thiagoluznascimento/ProjetoDRS-DEMO.git
 ```
@@ -40,7 +40,7 @@ virtualenv venv -p python3.7
 ```bash
 source venv/bin/activate
 ```
-4. Instale as bibliotecas  numpy e matplotlib :
+4. Instale as bibliotecas  numpy e matplotlib
 ```bash
 pip install numpy matplotlib
 ```
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 
 ## Execute o Flake8
-6. Comando para executar o flake8.
+6. Comando para executar o flake8
 ```bash
 flake8 src/main.py 
 ```
@@ -62,7 +62,7 @@ flake8 src/main.py
 Ctrl + f5
 ```
 ## Observações:
-8. Este programa foi desenvolvido utilizando o Ubuntu 22.04.3 LTS e como IDE Visual Studio Code (VS Code)
+8. Este script foi desenvolvido utilizando o Ubuntu 22.04.3 LTS e como IDE Visual Studio Code (VS Code)
 
 ## Dificuldades
-De início, uma das dificuldades que eu tive foi entender o problema proposto. Busquei soluções recorrendo ao meu professor de cálculo no Instituto Federal (IFNMG). Após superar essa etapa, enfrentei o desafio de estudar as bibliotecas utilizadas (numpy e matplotlib), nas quais estou aprofundando meus conhecimentos.
+De início, uma das dificuldades que eu tive foi entender o problema proposto. Busquei soluções recorrendo ao meu professor de cálculo no Instituto Federal (IFNMG). Após superar essa etapa, enfrentei o desafio de estudar as bibliotecas utilizadas (numpy e matplotlib), nas quais ainda estou aprofundando meus conhecimentos.
