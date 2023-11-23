@@ -57,7 +57,7 @@ flake8 src/main.py
 ```
 
 ## Execute o programa
-7. Comando para executar o programa pelo terminal
+7. Comando para executar o programa
 ```bash
 Ctrl + f5
 ```
