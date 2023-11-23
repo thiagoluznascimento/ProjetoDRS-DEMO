@@ -9,11 +9,11 @@ class JateamentoDeGranalhas:
     def __init__(self):
         self.xb = 1.5
         self.yb = 5.0
-        self.fig, self.ax = plt.subplot()
+        self.fig, self.ax = plt.subplots()
         plt.subplots_adjust(bottom=0.35)
 
         self._adiciona_sliders()
-        self._add_reset_button()
+        self._adiciona_reset_button()
         self.update(0)
 
     def calcula_zona_jateada(self, x, y, theta):
@@ -45,8 +45,8 @@ class JateamentoDeGranalhas:
         self.slider_x = Slider(ax_slider_x, 'xb', 0.1, 10.0, valinit=self.xb)
         self.slider_x.on_changed(self._slider_x_changed)
 
-        ax_slider_y = plt.axes([0.1, 0.01, 0.65, 0.03], facecolor=axcolor)
-        self.slider_y = Slider(ax_slider_y, 'yb', 0.1, 10.0, valinit=self.yb)
+        ax_slider_y = plt.axes([0.1, 0.06, 0.65, 0.03], facecolor=axcolor)
+        self.slider_y = Slider(ax_slider_y, 'yb', -10.0, 10.0, valinit=self.yb)
         self.slider_y.on_changed(self._slider_y_changed)
 
         ax_slider_theta = plt.axes([0.1, 0.11, 0.65, 0.03], facecolor=axcolor)
@@ -76,4 +76,6 @@ class JateamentoDeGranalhas:
         self.slider_theta.reset()
 
 
-simulador = JateamentoDeGranalhas()
+if __name__=="__main__":
+    simulador = JateamentoDeGranalhas()
+    plt.show()
