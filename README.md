@@ -4,6 +4,7 @@
 Esse teste prático tem como objetivo verificar skills de programação em Python considerando
 o escopo de projeto que será desenvolvido ao longo do projeto DRS:DEMO
 
+Processo de shot peening:
 1. Existe um bico de jateamento com abertura lbico centrado no ponto b, localizado nas
 coordenadas (xb, yb);
 2. O bico gira ao redor de b no ângulo θ, sendo mantido o centro em posição constante;
