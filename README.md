@@ -67,3 +67,7 @@ Ctrl + f5
 
 ## Dificuldades
 De início, uma das dificuldades que eu tive foi entender o problema proposto. Busquei soluções recorrendo ao meu professor de cálculo no Instituto Federal (IFNMG). Após superar essa etapa, enfrentei o desafio de estudar as bibliotecas utilizadas (numpy e matplotlib), nas quais ainda estou aprofundando meus conhecimentos.
+
+Observação final: Foi de suma importância assistir  a defesa de mestrado do Guilherme Fernandes e defesa de Douorado do André Luiz que estão disponibilizadas no canal Eigendauer no Youtube.
+[Defesa Mestrado - Guilherme Fernandes](https://www.youtube.com/watch?v=omWg7Az9A4Q&list=PLH8x5Xv3yaa7JtJFOXe_uyG4u8hv5VGz6&ab_channel=CentrodeCompet%C3%AAnciaemManufatura-CCM-ITA)
+[Defesa Doutorado - André Luiz Rocha](https://www.youtube.com/watch?v=cG3k-fPb5nI&lc=Ugwo-6ze96WAg5_SMld4AaABAg&ab_channel=CentrodeCompet%C3%AAnciaemManufatura-CCM-ITA)
