@@ -53,5 +53,27 @@ class JateamentoDeGranalhas:
         self.slider_theta = Slider(ax_slider_theta, 'Angulo Theta', 0, 360, valinit=0)
         self.slider_theta.on_changed(self.update)
 
+    def _adiciona_reset_button(self):
+        """Adiciona um butão para resetar os sliders"""
+        ax_reset = plt.axes([0.83, 0.025, 0.1, 0.04])
+        self.reset_button = Button(ax_reset, 'Resetar', hovercolor='0.975')
+        self.reset_button.on_clicked(self._reset_sliders)
+
+    def _slider_x_changed(self, val):
+        """Handler para alterações no slider de xb"""
+        self.xb = val
+        self.update(0)
+
+    def _slider_y_changed(self, val):
+        """Handler para alterações no slider de yb"""
+        self.yb = val
+        self.update(0)
+
+    def _reset_sliders(self, event):
+        """Dá o reset nos controles do slides para os valores iniciais """
+        self.slider_x.reset()
+        self.slider_y.reset()
+        self.slider_theta.reset()
+
 
 simulador = JateamentoDeGranalhas()
