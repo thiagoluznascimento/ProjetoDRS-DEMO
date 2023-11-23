@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ## Execute o Flake8
 6. Comando para executar o flake8.
 ```bash
-flake8 src/crawler.py
+flake8 src/main.py 
 ```
 
 ## Execute o programa
